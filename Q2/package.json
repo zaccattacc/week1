@@ -11,5 +11,8 @@
   },
   "scripts": {
     "test": "node scripts/bump-solidity.js && npx hardhat test"
+  },
+  "dependencies": {
+    "node": "^16.13.1"
   }
 }
